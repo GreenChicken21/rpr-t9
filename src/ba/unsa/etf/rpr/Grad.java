@@ -21,6 +21,11 @@ public class Grad {
         this.id = id;
     }
 
+    @Override
+    public String toString() {
+        return getNaziv() + " (" + getDrzava().getNaziv() + ") - " + getBrojStanovnika() + "\n";
+    }
+
     public int getBrojStanovnika() {
         return brojStanovnika;
     }

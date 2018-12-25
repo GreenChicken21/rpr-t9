@@ -5,6 +5,12 @@ public class Drzava {
     private String naziv;
     private Grad glavniGrad;
 
+    public Drzava(String naziv, Grad grad) {
+        this.naziv = naziv;
+        glavniGrad = grad;
+
+    }
+
     public int getId() {
         return id;
     }

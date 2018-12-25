@@ -6,6 +6,13 @@ public class Grad {
     private int brojStanovnika;
     private Drzava drzava;
 
+    public Grad(String naziv, int id) {
+        this.id = id;
+        this.naziv = naziv;
+        drzava = null;
+        brojStanovnika = 0;
+    }
+
     public int getId() {
         return id;
     }

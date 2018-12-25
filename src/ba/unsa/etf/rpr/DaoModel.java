@@ -10,16 +10,12 @@ public class DaoModel {
     private ObservableList<Grad> status = FXCollections.observableArrayList();
     private ObservableList<Drzava> status2 = FXCollections.observableArrayList();
     public void dodajGradove() {
-        for (Grad g: gradovi
-        ) {
+        for (Grad g: gradovi)
             status.add(g);
-        }
     }
     public void dodajDrzave() {
-        for (Grad g: gradovi
-        ) {
+        for (Grad g: gradovi)
             status2.add(g.getDrzava());
-        }
     }
 
     public ObservableList<Grad> getStatus() {

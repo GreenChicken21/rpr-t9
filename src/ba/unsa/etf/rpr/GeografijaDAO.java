@@ -8,6 +8,7 @@ import java.util.Collections;
 import java.util.Comparator;
 
 public class GeografijaDAO {
+
     private Connection conn;
     private PreparedStatement stmt;
     private static GeografijaDAO instance = null;
